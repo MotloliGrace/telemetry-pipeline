@@ -1,7 +1,7 @@
 import sqlite3, os
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent.parent / "data" / "telemetry.db"
+DB_PATH = Path(__file__).parent / "data" / "telemetry.db"
 SCHEMA  = Path(__file__).parent / "schema.sql"
 
 def db_init():
